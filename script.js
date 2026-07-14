@@ -13,6 +13,4 @@ function checkNumber() {
     const number = Number(document.getElementById("number").value);
     const result = isOddOrEven(number);
     document.getElementById("result").innerHTML = `The number ${number} is ${result}.`;
-
-    
 }
